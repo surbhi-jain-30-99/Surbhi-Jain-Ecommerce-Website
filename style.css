@@ -1,0 +1,515 @@
+
+/*body{
+	font-size:20px;
+	overflow-x:hidden;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}*/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	/*background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://malpanistop.com/wp-content/uploads/2019/03/background.jpg');*/
+	/*background-repeat: no-repeat;*/
+
+	/*background-image: linear-gradient(to left,rgba(255,0,0,0), rgba(255,0,0,1));*/
+}
+
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	font-color: white;
+	/*font-family: 'Roboto Slab', serif;*/
+	/*font-family: 'Flamenco', cursive;*/
+	font-family: 'Flamenco', cursive;
+	/*font-family: 'Courgette', cursive;*/
+}
+
+
+
+.header{
+
+	background: linear-gradient(black, 20%, pink);
+	background-repeat: no-repeat;
+	/*background-image: linear-gradient(to left,rgba(255,0,0,0), rgba(255,0,0,1));*/
+
+
+	/*background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://malpanistop.com/wp-content/uploads/2019/03/background.jpg');*/
+	/* background-image: linear-gradient(rgba(126, 103, 120, 0.2),rgba(126,103,120,0.2)),url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+	/*background-image: linear-gradient(rgba(126, 103, 120, 0.2),rgba(126,103,120,0.2));*/
+	/* background-image:url("girl.jpeg"); */
+    /*background-color: linear-gradient(rgb(255,160,122),rgb(250,128,114),rgb(255,160,122))*/
+    /*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
+	background-size: cover; 
+    /*color: #fff;*/
+
+	height:auto; 
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', sans-serif;
+	font-color: white;
+}
+
+h1{
+
+	color: #fff;
+	font-size: 240%;
+	/*word-spacing: 5px;*/
+	letter-spacing: 3px; 
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	/*font-weight: lighter;*/
+
+}
+
+
+.clearfix:after{
+	content:".";
+	visibility: hidden;
+	display: block;
+	height:0px;
+	clear:both;
+}
+.row{
+	max-width: 1180px;
+	margin:0 auto;
+}
+.logo{
+	height: 100px;
+	width:auto;
+	float:left;
+	border-radius:40px 40px;
+	margin-top:10px;
+	
+}
+
+.main-nav{
+	float:right;
+	margin-top:40px;
+}
+.main-nav li{
+	padding:5px 0;
+	display: inline-block;
+	padding:5px;
+	list-style: none;
+}
+.main-nav li a{
+	color:black;
+	text-decoration: none;
+	font-size:13px;
+}
+.main-nav li a:hover{
+	border-bottom:2px solid black;
+}
+.main-content-header{
+	
+	background-repeat: no-repeat;
+	/* width: 1300px; */
+	/* height:auto;
+	/* border:1px solid black; */
+	/* position:absolute;
+	top:55%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+	float:right; */ 
+	display:flex;
+	align:center;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	
+	/* background-image:url('girl.jpeg');
+	background-size:cover;
+	 */
+
+
+
+}
+
+.about-page p{
+	font-family: 'Srisakdi', cursive;
+	margin: 10px 50px;
+	mar
+
+}
+
+.about-page h4{
+	margin: 10px 50px;
+	font-family: 'Satisfy', cursive;
+}
+
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 img{
+	max-width:100%;
+	padding:50px 0;
+}
+.col-2 h1{
+	color:rgb(0, 0, 0);
+	font-size:40px;
+	line-height: 60px;
+	margin:25px 0;
+    font-family: 'Flamenco', cursive;
+	color: #fff;
+	font-size: 240%;
+	/*word-spacing: 5px;*/
+	letter-spacing: 3px; 
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	/*font-weight: lighter;*/
+	/* word-spacing: 5px;
+	letter-spacing: 2px;
+	margin-bottom:20px;
+	text-transform: uppercase;
+	font-weight:lighter; */
+	
+	
+}
+
+
+
+.offer{
+
+	background: linear-gradient(black, 20%, pink);
+	background-repeat: no-repeat;
+	margin-top:80px;
+	padding:30px 0;
+}
+
+
+
+.offer.small-container.row .col-2 .offer-img{
+	padding:30px; 
+	display:flex;
+}
+
+small{
+	color:#555;
+}
+
+.btn{
+	display: inline-block;
+	padding:8px 30px;
+	/* font-weight:lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius:200px;
+	transition:background-color 0.2s, border 0.2s, color 0.2; */
+	background:#ff523b;
+	color:#fff;
+	margin:30px 0;
+	border-radius:30px;
+
+}
+.btn-full{
+	background-color:transparent;
+	color:#000000;
+	margin-right:15px;
+	border:1px solid#fff;
+}
+.btn-full:hover{
+	background-color:#fff;
+}
+
+.btn-nav{
+	background-color: transparent;
+	color: #000000;
+	border:1px solid #fff;
+
+}
+.btn-nav:hover{
+	background-color: #fff;
+}
+.categories{
+	margin:70px 0;
+	/*background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://malpanistop.com/wp-content/uploads/2019/03/background.jpg');*/
+	/* background-image: linear-gradient(rgba(126, 103, 120, 0.2),rgba(126,103,120,0.2)),url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+	/*background-image: linear-gradient(rgba(126, 103, 120, 0.2),rgba(126,103,120,0.2));*/
+	/* background-image:url("girl.jpeg"); */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.col-2 p{
+	font-family: 'Courgette', cursive;
+}
+.col-3{
+	flex:30%;
+	min-width:250px;
+	margin-bottom:30px;
+}
+.col-3 img{
+	width:100%;
+}
+.small-container{
+	max-width:1080px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+
+}
+.col-4{
+	flex-basis: 25%;
+	padding:10px;
+	min-width:200px;
+	max-width:50px;
+
+}
+.col-4 img{
+	width:100%;
+}
+.title{
+	text-align:center;
+	margin:0 auto 80px;
+	position: relative;
+	line-height:60px;
+	color:rgb(32, 17, 17);
+}
+.title::after{
+	content:'';
+	background:#ff523b;
+	width:80px;
+	height:5px;
+	border-radius:5px;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+
+}
+.col-4 h2{
+	color:#555;
+	font-weight:normal;
+	font-size:20px;
+}
+.col-4 p{
+	font-size:20px;
+
+}
+.rating .fa{
+	color:#ff523b;
+}
+.colorchange{
+	animation: colorchangesurbhi 1s infinite; 
+}
+
+
+.testimonial{
+	padding-top: 100px;
+
+}
+
+.testimonial .col-3{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+	width: 50px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+.testimonial .col-3:hover{
+	transform: translateY(-10px);
+
+}
+
+.fa.fa-quote-left{
+	font-size: 34px;
+	color: #ff523b;
+}
+.col-3 p{
+	font-size: 12px;
+	margin:  12px 0;
+	color: #777;
+}
+
+.testimonial .col-3 h3{
+	font-weight: 600;
+	color: #555;
+	font-size: 16px;
+
+}
+
+.brands{
+	margin: 100px auto;
+
+}
+
+.col-5{
+	width: 160px;
+}
+
+.col-5 img{
+	width: 100%;
+	cursor: pointer;
+	filter: grayscale(100%);
+
+}
+
+.col-5 img:hover{
+	filter: grayscale(0);
+
+}
+
+
+
+.footer{
+	background-color: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p{
+		color: #8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+
+.footer-col-1{
+	flex-basis: 30%;
+
+}
+
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+}
+.footer-col-2 img{
+	width: 180px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+}
+
+ .footer-col-3, .footer-col-4{
+ 	flex-basis: 12%;
+ 	text-align: center;
+ }
+ ul{
+ 	list-style-type: none;
+ }
+
+.app-logo{
+	margin-top: 20px;
+}
+.app-logo img{
+	width: 140px;
+
+
+}
+
+.footer hr{
+	border: none;
+	background:#b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+
+
+}
+.copyright {
+	text-align:center;
+	background:black;
+	color:white;
+	padding: 60px 0 20px
+	margin-right:100px;
+}
+.colorchange{
+	animation: colorchangesurbhi 1s infinite; 
+}
+
+@keyframes colorchangesurbhi{
+	0%{color: red;}
+	25%{color: blue;}
+	50%{color: pink;}
+	100%{color: yellow;}
+}
+
+}
+.mobile-icon{
+	display: none;
+}
+
+
+
+@media only screen and (max-width:1180px){
+	.main-content-header{
+		width:100%;
+		padding:0 2%;
+	}
+}
+@media only screen and (max-width:998px){
+	h1{
+		font-size:200%
+	}
+	
+}
+@media only screen and (max-width:768px){
+	h1{
+		font-size:180%
+	}
+	.main-nav{
+		display:none;
+		
+	}
+	.mobile-icon{
+		display: inline-block;
+		color:#fff;
+		float: right;
+		 margin-top:30px;
+		margin-right:20px;
+
+	}
+	.main-nav{float:right;}
+	.main-nav li{
+		/* float:left; */
+		display: block;
+		margin-top:10px;
+	} 
+}
+@media only screen and (max-width:480px){
+	.btn-full{
+		margin-bottom:20px;
+	}
+	h1{
+		font-size:160%;
+	}
+}
+@media only screen and (max-width:284px){
+	h1{
+		font-size:20px;
+	}
+	.main-nav{
+		display:none;
+		
+	}
+	.mobile-icon{
+		display: inline-block;
+		color:#fff;
+		float: right;
+		 margin-top:30px;
+		margin-right:20px;
+
+	}
+	.main-nav{float:right;}
+	.main-nav li{
+		/* float:left; */
+		display: block;
+		margin-top:10px;
+		font-size:20px;
+	} 
+}
